@@ -6,19 +6,14 @@
 - По сравнению с другими подобными продуктами, данная разработка отличается понятным кодом и удобным интерфейсом.
 **Скриншот рабочего окна приложения:**
 ----------------------------------------
- ![image](https://github.com/StephanKomov/Task6/blob/master/7.jpg)
+ ![image](https://github.com/GoodieCore/java_lab_shape_prototype/blob/master/Prototype_img_1.JPG)
  
 
 
 
  **Разбор части кода на примере абстрактного класса Shape**
 ```
-package com.example.task6;
-
-import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.paint.Color;
-
-abstract class Shape implements Cloneable{
+abstract public class Shape implements Cloneable{
     protected Color color;
     public Shape(Color color){
         this.color = color;
@@ -47,11 +42,11 @@ abstract class Shape implements Cloneable{
 ## Архитектура
 Диаграмма классов:
 
- ![image](https://github.com/StephanKomov/Task6/blob/master/6.jpg)
+ ![image](https://github.com/GoodieCore/java_lab_shape_prototype/blob/master/Prototype_img_2.JPG)
 
 
 ## Завсимости
-Для работы данного приложежния необходимы JavaFX и JDK 20.
+Для работы данного приложежния необходимы JavaFX и JDK 21.
 
 ## Установка
 Не требуется. Достаточно запустить проект через любую доступную среду разработки JAVA.
@@ -68,8 +63,6 @@ abstract class Shape implements Cloneable{
 - Выбрать цвет обводки
 
 
-
-
 ## Проверка ПО
 Не предусмотрена
 
@@ -77,11 +70,11 @@ abstract class Shape implements Cloneable{
 Фигуре нельзя задавать размер фигур
 
 ## Получение справочной информации
-По всем вопрсам можно обратиться в [ВК](https://vk.com/id484742584) разработчика  
+По всем вопрсам можно обратиться в [ВК](https://vk.com/iayiwer) разработчика  
 
 ## Приглашение к сотрудничеству 
 В дальнейшем предполагается доработка кода, чтобы можно было задавать размеры фигуры
 
 ## Источники и справочники
 - [Прототип?](https://sites.google.com/view/study-pattern/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F/%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8/task-6-%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D1%82%D0%B8%D0%BF)
-- [JavaFX?](https://ru.wikipedia.org/wiki/JavaFX)
+- [Prototype Design Pattern](https://javadevcentral.com/prototype-design-pattern)
